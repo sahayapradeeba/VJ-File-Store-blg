@@ -163,7 +163,7 @@ async def base_site_handler(client, m: Message):
     elif len(cmd) == 2:
         base_site = cmd[1].strip()
         if not domain(base_site):
-            return await m.reply(text=text, disable_web_page_preview=True)
+            return await m.reply(text=text, disable_web_page_preview=False)
         await update_user_info(user_id, {"base_site": base_site})
         await m.reply("Base Site updated successfully")
     else:
