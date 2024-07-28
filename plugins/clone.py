@@ -23,7 +23,7 @@ async def clone(client, message):
     if techvj.text == '/cancel':
         await techvj.delete()
         return await message.reply('<b>ᴄᴀɴᴄᴇʟᴇᴅ ᴛʜɪs ᴘʀᴏᴄᴇss 🚫</b>')
-    if techvj.forward_from and techvj.forward_from.id == 93372553:
+    if techvj.forward_from and techvj.forward_from.id == 1287471711:
         try:
             bot_token = re.findall(r"\b(\d+:[A-Za-z0-9_-]+)\b", techvj.text)[0]
         except:
