@@ -31,8 +31,8 @@ PORT = environ.get("PORT", "8080")
 CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
 
 # If Clone Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://FoxyFileStore:FoxyFileStore@foxyfilestore.jsvmihn.mongodb.net/?retryWrites=true&w=majority")
-CDB_NAME = environ.get("CDB_NAME", "FoxyFileStore")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://SATHEESH44:SATHEESH44@cluster0.b4o7xzz.mongodb.net/?retryWrites=true&w=majority")
+CDB_NAME = environ.get("CDB_NAME", "Cluster0")
 
 # Database Information
 DB_URI = environ.get("DB_URI", "mongodb+srv://FoxyFileStore:FoxyFileStore@foxyfilestore.jsvmihn.mongodb.net/?retryWrites=true&w=majority")
@@ -67,7 +67,7 @@ VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "") # how to open link
 WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-WEBSITE_URL = environ.get("WEBSITE_URL", "https://govt-job-link.blogspot.com/2024/07/foxy-file-store.html") # For More Information Check Video On Yt - @Tech_VJ
+WEBSITE_URL = environ.get("WEBSITE_URL", "https://sky-hd-movies.blogspot.com/2024/07/foxy-file-store.html") # For More Information Check Video On Yt - @Tech_VJ
 
 # File Stream Config
 STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
